@@ -1,0 +1,49 @@
+
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 110%;
+    position: fixed;
+    overflow: hidden;
+    margin-bottom: auto;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #B1fefe;
+}
+
+.menu a:hover {
+    color: #B1fefe;
+    text-shadow: 0 0 10px #01fefe;
+}
+
+.menu a:after {
+    content: '';
+    position: absolute;
+    background-color: #01fefe;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel {
+    padding: 10rem;
+}
+.card{
+    height: 5rem;
+}
